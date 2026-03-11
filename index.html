@@ -1,7 +1,34 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
+layout: splash
 author_profile: true
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.6"
+  overlay_image: /assets/images/vienna-tech-banner.jpg 
+  excerpt: "Knowledge Representations for Large Language Models"
+  actions:
+    - label: "View Project Details"
+      url: "https://www.wwtf.at/funding/programmes/vrg/VRG24-013/"
+
+feature_row_vrg:
+  - image_path: /assets/images/wwtf-logo.png
+    alt: "WWTF VRG24-013"
+    title: "Knowledge Representation Learning for LLMs"
+    excerpt: "A **Vienna Research Group (VRG)** project funded by the **WWTF** (€1.59M). Led by **Svitlana Vakulenko** at **WU Vienna**, we are developing novel mechanisms to make LLMs more reliable by enabling them to construct and update their own knowledge representations from external sources."
+    url: "/publications/"
+    btn_label: "Our Research"
+    btn_class: "btn--primary"
+
+feature_row_highlights:
+  - title: "Latest Publication: CHARISMA"
+    excerpt: "Our work on **Character-Based Interaction Simulation** using multi-LLM agents was recently accepted at **CHIIR '26**."
+    url: "/publications/"
+    btn_label: "Read Paper"
+    btn_class: "btn--info"
 ---
+
+# Vienna Research Group: Knowledge Representation & LLMs
+
+Hosted at the **WU - Vienna University of Economics and Business**, our group bridges the gap between massive language models and unstructured textual data. We move beyond "word frequency patterns" to build models that can continously expand their knowledge.
+
+{% include feature_row id="feature_row_vrg" %}
